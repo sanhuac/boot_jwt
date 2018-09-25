@@ -1,0 +1,541 @@
+2018-09-25 10:46:54.159 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 3756 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 10:46:54.166 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 10:46:54.293 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@776aec5c: startup date [Tue Sep 25 10:46:54 CST 2018]; root of context hierarchy
+2018-09-25 10:46:57.223 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6d4748d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 10:46:58.135 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 10:46:58.195 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 10:46:58.198 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 10:46:58.800 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 10:46:58.804 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 4511 ms
+2018-09-25 10:46:59.169 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 10:46:59.181 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 10:46:59.183 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 10:46:59.186 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 10:46:59.187 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 10:46:59.794 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 10:46:59.813 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 10:46:59.947 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 10:46:59.951 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 10:46:59.958 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 10:47:00.066 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 10:47:00.654 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 10:47:00.687 INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl Line:63  - HHH000422: Disabling contextual LOB creation as connection was null
+2018-09-25 10:47:01.610 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 10:47:01.644 INFO  org.apache.catalina.core.StandardService Line:180 - Stopping service [Tomcat]
+2018-09-25 10:47:01.670 INFO  org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer Line:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-09-25 10:48:36.043 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 6716 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 10:48:36.049 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 10:48:36.139 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@776aec5c: startup date [Tue Sep 25 10:48:36 CST 2018]; root of context hierarchy
+2018-09-25 10:48:38.377 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9141c6c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 10:48:39.078 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 10:48:39.119 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 10:48:39.119 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 10:48:39.610 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 10:48:39.613 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3475 ms
+2018-09-25 10:48:39.968 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 10:48:39.980 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 10:48:39.982 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 10:48:39.984 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 10:48:39.985 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 10:48:40.594 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 10:48:40.615 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 10:48:40.732 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 10:48:40.737 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 10:48:40.741 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 10:48:40.836 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 10:48:41.428 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 10:48:42.195 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 10:48:42.222 INFO  org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl Line:365 - HHH000262: Table not found: user
+2018-09-25 10:48:42.227 INFO  org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl Line:365 - HHH000262: Table not found: user
+2018-09-25 10:48:42.305 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:414 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-25 10:48:43.456 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/description],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.description(java.lang.String)
+2018-09-25 10:48:43.458 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/login],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-09-25 10:48:43.467 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-09-25 10:48:43.472 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-09-25 10:48:43.474 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-09-25 10:48:43.478 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-25 10:48:43.480 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-25 10:48:43.736 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-25 10:48:44.144 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@776aec5c: startup date [Tue Sep 25 10:48:36 CST 2018]; root of context hierarchy
+2018-09-25 10:48:44.229 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 10:48:44.230 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 10:48:44.735 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-09-25 10:48:44.753 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:345 - Starting beans in phase 2147483647
+2018-09-25 10:48:44.755 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-09-25 10:48:44.783 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 1 custom documentation plugin(s)
+2018-09-25 10:48:44.837 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-09-25 10:48:45.184 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:216 - Tomcat started on port(s): 8080 (http)
+2018-09-25 10:48:45.196 INFO  com.huc.boot_jwt.BootJwtApplication Line:57  - Started BootJwtApplication in 10.506 seconds (JVM running for 12.622)
+2018-09-25 10:48:45.197 INFO  com.huc.boot_jwt.BootJwtApplication Line:15  - 发送服务启动 
+2018-09-25 10:51:28.626 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 8040 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 10:51:28.631 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 10:51:28.700 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@776aec5c: startup date [Tue Sep 25 10:51:28 CST 2018]; root of context hierarchy
+2018-09-25 10:51:30.979 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aec5eb7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 10:51:31.715 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 10:51:31.758 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 10:51:31.759 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 10:51:32.311 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 10:51:32.314 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3614 ms
+2018-09-25 10:51:32.704 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 10:51:32.713 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 10:51:32.714 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 10:51:32.716 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 10:51:32.717 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 10:51:33.326 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 10:51:33.342 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 10:51:33.465 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 10:51:33.471 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 10:51:33.473 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 10:51:33.583 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 10:51:34.180 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 10:51:34.935 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 10:51:35.209 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:414 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-25 10:51:36.603 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/description],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.description(java.lang.String)
+2018-09-25 10:51:36.608 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/login],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-09-25 10:51:36.618 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-09-25 10:51:36.621 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-09-25 10:51:36.623 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-09-25 10:51:36.627 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-25 10:51:36.628 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-25 10:51:36.926 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-25 10:51:37.396 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@776aec5c: startup date [Tue Sep 25 10:51:28 CST 2018]; root of context hierarchy
+2018-09-25 10:51:37.511 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 10:51:37.512 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 10:51:38.011 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-09-25 10:51:38.024 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:345 - Starting beans in phase 2147483647
+2018-09-25 10:51:38.025 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-09-25 10:51:38.048 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 1 custom documentation plugin(s)
+2018-09-25 10:51:38.103 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-09-25 10:51:38.391 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:216 - Tomcat started on port(s): 8080 (http)
+2018-09-25 10:51:38.401 INFO  com.huc.boot_jwt.BootJwtApplication Line:57  - Started BootJwtApplication in 11.041 seconds (JVM running for 13.22)
+2018-09-25 10:51:38.402 INFO  com.huc.boot_jwt.BootJwtApplication Line:15  - 发送服务启动 
+2018-09-25 10:57:52.351 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 7228 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 10:57:52.355 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 10:57:52.431 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@776aec5c: startup date [Tue Sep 25 10:57:52 CST 2018]; root of context hierarchy
+2018-09-25 10:57:54.491 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4bdbf03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 10:57:55.150 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 10:57:55.191 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 10:57:55.193 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 10:57:55.673 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 10:57:55.674 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3244 ms
+2018-09-25 10:57:55.993 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 10:57:56.002 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 10:57:56.003 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 10:57:56.004 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 10:57:56.005 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 10:57:56.592 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 10:57:56.611 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 10:57:56.715 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 10:57:56.719 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 10:57:56.722 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 10:57:56.827 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 10:57:57.417 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 10:57:58.115 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 10:57:58.366 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:414 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-25 10:57:59.429 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/description],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.description(java.lang.String)
+2018-09-25 10:57:59.433 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/login],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-09-25 10:57:59.441 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-09-25 10:57:59.445 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-09-25 10:57:59.447 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-09-25 10:57:59.452 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-25 10:57:59.453 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-25 10:57:59.727 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-25 10:58:00.111 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@776aec5c: startup date [Tue Sep 25 10:57:52 CST 2018]; root of context hierarchy
+2018-09-25 10:58:00.199 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 10:58:00.200 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 10:58:00.709 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-09-25 10:58:00.726 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:345 - Starting beans in phase 2147483647
+2018-09-25 10:58:00.726 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-09-25 10:58:00.752 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 1 custom documentation plugin(s)
+2018-09-25 10:58:00.805 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-09-25 10:58:01.081 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:216 - Tomcat started on port(s): 8080 (http)
+2018-09-25 10:58:01.089 INFO  com.huc.boot_jwt.BootJwtApplication Line:57  - Started BootJwtApplication in 10.099 seconds (JVM running for 12.055)
+2018-09-25 10:58:01.090 INFO  com.huc.boot_jwt.BootJwtApplication Line:15  - 发送服务启动 
+2018-09-25 11:03:38.022 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 6904 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 11:03:38.027 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 11:03:38.093 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@776aec5c: startup date [Tue Sep 25 11:03:38 CST 2018]; root of context hierarchy
+2018-09-25 11:03:40.087 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aec5eb7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 11:03:40.784 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 11:03:40.827 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 11:03:40.829 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 11:03:41.311 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 11:03:41.312 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3220 ms
+2018-09-25 11:03:41.637 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 11:03:41.649 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 11:03:41.650 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 11:03:41.652 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 11:03:41.652 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 11:03:42.208 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:03:42.224 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 11:03:42.332 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 11:03:42.335 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 11:03:42.338 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 11:03:42.478 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 11:03:43.048 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 11:03:43.763 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 11:03:44.011 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:414 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:03:45.072 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/description],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.description(java.lang.String)
+2018-09-25 11:03:45.076 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/login],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:03:45.083 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-09-25 11:03:45.087 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-09-25 11:03:45.088 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-09-25 11:03:45.093 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-25 11:03:45.094 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:03:45.360 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-25 11:03:45.767 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@776aec5c: startup date [Tue Sep 25 11:03:38 CST 2018]; root of context hierarchy
+2018-09-25 11:03:45.850 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:03:45.851 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:03:46.377 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-09-25 11:03:46.395 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:345 - Starting beans in phase 2147483647
+2018-09-25 11:03:46.396 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-09-25 11:03:46.418 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 1 custom documentation plugin(s)
+2018-09-25 11:03:46.475 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-09-25 11:03:46.750 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:216 - Tomcat started on port(s): 8080 (http)
+2018-09-25 11:03:46.761 INFO  com.huc.boot_jwt.BootJwtApplication Line:57  - Started BootJwtApplication in 9.918 seconds (JVM running for 12.119)
+2018-09-25 11:03:46.761 INFO  com.huc.boot_jwt.BootJwtApplication Line:15  - 发送服务启动 
+2018-09-25 11:04:51.791 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 4524 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 11:04:51.795 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 11:04:51.869 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@776aec5c: startup date [Tue Sep 25 11:04:51 CST 2018]; root of context hierarchy
+2018-09-25 11:04:53.915 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cf097989] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 11:04:54.630 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 11:04:54.672 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 11:04:54.673 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 11:04:55.185 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 11:04:55.187 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3318 ms
+2018-09-25 11:04:55.511 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 11:04:55.521 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 11:04:55.523 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 11:04:55.524 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 11:04:55.524 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 11:04:56.097 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:04:56.118 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 11:04:56.226 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 11:04:56.231 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 11:04:56.235 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 11:04:56.343 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 11:04:56.934 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 11:04:57.672 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 11:04:57.915 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:414 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:04:58.984 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/description],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.description(java.lang.String)
+2018-09-25 11:04:58.988 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/login],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:04:58.996 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-09-25 11:04:59.000 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-09-25 11:04:59.001 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-09-25 11:04:59.007 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-25 11:04:59.008 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:04:59.276 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-25 11:04:59.687 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@776aec5c: startup date [Tue Sep 25 11:04:51 CST 2018]; root of context hierarchy
+2018-09-25 11:04:59.771 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:04:59.771 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:05:00.292 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-09-25 11:05:00.308 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:345 - Starting beans in phase 2147483647
+2018-09-25 11:05:00.309 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:147 - Context refreshed
+2018-09-25 11:05:00.335 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:150 - Found 1 custom documentation plugin(s)
+2018-09-25 11:05:00.395 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-09-25 11:05:00.674 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:216 - Tomcat started on port(s): 8080 (http)
+2018-09-25 11:05:00.685 INFO  com.huc.boot_jwt.BootJwtApplication Line:57  - Started BootJwtApplication in 10.181 seconds (JVM running for 12.173)
+2018-09-25 11:05:00.686 INFO  com.huc.boot_jwt.BootJwtApplication Line:15  - 发送服务启动 
+2018-09-25 11:08:23.138 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 7204 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 11:08:23.144 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 11:08:23.211 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 11:08:23 CST 2018]; root of context hierarchy
+2018-09-25 11:08:25.349 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4fb55f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 11:08:26.073 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 11:08:26.117 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 11:08:26.120 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 11:08:26.624 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 11:08:26.625 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3414 ms
+2018-09-25 11:08:26.956 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 11:08:26.966 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 11:08:26.968 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 11:08:26.969 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 11:08:26.970 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 11:08:27.558 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:08:27.576 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 11:08:27.685 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 11:08:27.689 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 11:08:27.692 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 11:08:27.799 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 11:08:28.444 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 11:08:29.221 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 11:08:29.475 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:414 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:08:30.600 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/description],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.description(java.lang.String)
+2018-09-25 11:08:30.604 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/login],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:08:30.612 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-09-25 11:08:30.616 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-09-25 11:08:30.618 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-09-25 11:08:30.624 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-25 11:08:30.625 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:08:30.901 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-25 11:08:31.338 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 11:08:23 CST 2018]; root of context hierarchy
+2018-09-25 11:08:31.428 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:08:31.431 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:08:31.928 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-09-25 11:08:31.946 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:345 - Starting beans in phase 2147483647
+2018-09-25 11:08:31.947 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2018-09-25 11:08:31.976 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2018-09-25 11:08:32.022 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-09-25 11:08:32.285 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:216 - Tomcat started on port(s): 8080 (http)
+2018-09-25 11:08:32.293 INFO  com.huc.boot_jwt.BootJwtApplication Line:57  - Started BootJwtApplication in 10.164 seconds (JVM running for 12.458)
+2018-09-25 11:08:32.293 INFO  com.huc.boot_jwt.BootJwtApplication Line:15  - 发送服务启动 
+2018-09-25 11:09:02.424 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 6188 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 11:09:02.430 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 11:09:02.503 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 11:09:02 CST 2018]; root of context hierarchy
+2018-09-25 11:09:05.243 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$89f5df66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 11:09:05.933 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 11:09:05.984 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 11:09:05.987 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 11:09:06.459 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 11:09:06.460 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3957 ms
+2018-09-25 11:09:06.810 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 11:09:06.820 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 11:09:06.822 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 11:09:06.823 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 11:09:06.824 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 11:09:07.421 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:09:07.440 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 11:09:07.546 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 11:09:07.551 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 11:09:07.554 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 11:09:07.632 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 11:09:08.243 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 11:09:09.088 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 11:09:09.342 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:414 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:09:10.460 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/description],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.description(java.lang.String)
+2018-09-25 11:09:10.466 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/login],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:09:10.482 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-09-25 11:09:10.488 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-09-25 11:09:10.490 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-09-25 11:09:10.496 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-25 11:09:10.497 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:09:10.787 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-25 11:09:11.191 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 11:09:02 CST 2018]; root of context hierarchy
+2018-09-25 11:09:11.274 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:09:11.275 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:09:11.752 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-09-25 11:09:11.767 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:345 - Starting beans in phase 2147483647
+2018-09-25 11:09:11.768 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2018-09-25 11:09:11.795 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2018-09-25 11:09:11.840 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-09-25 11:09:12.144 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:216 - Tomcat started on port(s): 8080 (http)
+2018-09-25 11:09:12.156 INFO  com.huc.boot_jwt.BootJwtApplication Line:57  - Started BootJwtApplication in 10.989 seconds (JVM running for 13.186)
+2018-09-25 11:09:12.156 INFO  com.huc.boot_jwt.BootJwtApplication Line:15  - 发送服务启动 
+2018-09-25 11:10:32.999 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-25 11:10:33.000 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-25 11:10:33.049 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+2018-09-25 11:10:56.492 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator Line:47  - HHH000397: Using ASTQueryTranslatorFactory
+2018-09-25 11:11:31.656 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 6236 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 11:11:31.666 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 11:11:31.743 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 11:11:31 CST 2018]; root of context hierarchy
+2018-09-25 11:11:34.040 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$20f29405] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 11:11:34.735 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 11:11:34.786 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 11:11:34.789 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 11:11:35.289 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 11:11:35.291 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3548 ms
+2018-09-25 11:11:35.610 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 11:11:35.619 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 11:11:35.620 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 11:11:35.621 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 11:11:35.622 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 11:11:36.302 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:11:36.323 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 11:11:36.443 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 11:11:36.449 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 11:11:36.453 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 11:11:36.559 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 11:11:37.145 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 11:11:37.928 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 11:11:38.191 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:414 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:11:39.302 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/description],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.description(java.lang.String)
+2018-09-25 11:11:39.307 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/login],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:11:39.320 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-09-25 11:11:39.324 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-09-25 11:11:39.326 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-09-25 11:11:39.331 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-25 11:11:39.332 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:11:39.614 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-25 11:11:40.038 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 11:11:31 CST 2018]; root of context hierarchy
+2018-09-25 11:11:40.126 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:11:40.127 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:11:40.657 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-09-25 11:11:40.672 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:345 - Starting beans in phase 2147483647
+2018-09-25 11:11:40.673 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2018-09-25 11:11:40.702 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2018-09-25 11:11:40.745 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-09-25 11:11:41.018 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:216 - Tomcat started on port(s): 8080 (http)
+2018-09-25 11:11:41.029 INFO  com.huc.boot_jwt.BootJwtApplication Line:57  - Started BootJwtApplication in 10.862 seconds (JVM running for 13.154)
+2018-09-25 11:11:41.029 INFO  com.huc.boot_jwt.BootJwtApplication Line:15  - 发送服务启动 
+2018-09-25 11:11:58.496 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-25 11:11:58.498 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-25 11:11:58.551 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 51 ms
+2018-09-25 11:11:58.617 INFO  com.huc.boot_jwt.common.interceptor.SysInterceptor Line:37  - 验证失败
+2018-09-25 11:12:18.929 INFO  com.huc.boot_jwt.common.interceptor.SysInterceptor Line:37  - 验证失败
+2018-09-25 11:12:19.011 INFO  com.huc.boot_jwt.common.interceptor.SysInterceptor Line:37  - 验证失败
+2018-09-25 11:12:43.989 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator Line:47  - HHH000397: Using ASTQueryTranslatorFactory
+2018-09-25 11:35:03.823 INFO  com.huc.boot_jwt.common.interceptor.SysInterceptor Line:37  - 验证失败
+2018-09-25 11:39:35.447 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 6604 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 11:39:35.458 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 11:39:35.551 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 11:39:35 CST 2018]; root of context hierarchy
+2018-09-25 11:39:37.897 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dbc896b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 11:39:38.616 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 11:39:38.659 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 11:39:38.661 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 11:39:39.169 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 11:39:39.171 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3621 ms
+2018-09-25 11:39:39.510 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 11:39:39.521 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 11:39:39.522 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 11:39:39.523 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 11:39:39.524 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 11:39:40.126 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:39:40.149 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 11:39:40.279 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 11:39:40.284 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 11:39:40.296 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 11:39:40.391 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 11:39:41.011 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 11:39:41.835 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 11:39:42.104 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:414 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:39:43.226 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/description],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.description(java.lang.String)
+2018-09-25 11:39:43.231 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/login],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:39:43.242 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-09-25 11:39:43.245 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-09-25 11:39:43.247 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-09-25 11:39:43.250 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-25 11:39:43.251 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:39:43.574 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-25 11:39:43.969 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 11:39:35 CST 2018]; root of context hierarchy
+2018-09-25 11:39:44.048 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:39:44.048 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:39:44.558 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-09-25 11:39:44.575 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:345 - Starting beans in phase 2147483647
+2018-09-25 11:39:44.575 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2018-09-25 11:39:44.608 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2018-09-25 11:39:44.659 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-09-25 11:39:44.940 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:216 - Tomcat started on port(s): 8080 (http)
+2018-09-25 11:39:44.951 INFO  com.huc.boot_jwt.BootJwtApplication Line:57  - Started BootJwtApplication in 10.671 seconds (JVM running for 12.81)
+2018-09-25 11:39:44.951 INFO  com.huc.boot_jwt.BootJwtApplication Line:15  - 发送服务启动 
+2018-09-25 11:40:06.598 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-25 11:40:06.601 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-25 11:40:06.654 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 50 ms
+2018-09-25 11:40:06.749 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator Line:47  - HHH000397: Using ASTQueryTranslatorFactory
+2018-09-25 11:42:58.470 INFO  com.huc.boot_jwt.common.interceptor.SysInterceptor Line:54  - 签名过期
+2018-09-25 11:43:18.763 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 7252 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 11:43:18.769 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 11:43:18.839 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 11:43:18 CST 2018]; root of context hierarchy
+2018-09-25 11:43:21.047 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dbc896b8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 11:43:21.742 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 11:43:21.788 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 11:43:21.791 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 11:43:22.279 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 11:43:22.281 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3442 ms
+2018-09-25 11:43:22.631 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 11:43:22.641 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 11:43:22.642 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 11:43:22.643 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 11:43:22.644 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 11:43:23.233 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:43:23.251 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 11:43:23.365 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 11:43:23.370 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 11:43:23.374 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 11:43:23.459 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 11:43:24.127 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 11:43:24.927 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 11:43:25.206 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:414 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-25 11:43:26.389 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/description],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.description(java.lang.String)
+2018-09-25 11:43:26.394 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/login],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:43:26.402 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-09-25 11:43:26.407 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-09-25 11:43:26.410 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-09-25 11:43:26.416 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-25 11:43:26.416 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-25 11:43:26.717 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-25 11:43:27.123 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 11:43:18 CST 2018]; root of context hierarchy
+2018-09-25 11:43:27.208 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:43:27.208 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 11:43:27.740 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-09-25 11:43:27.755 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:345 - Starting beans in phase 2147483647
+2018-09-25 11:43:27.756 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2018-09-25 11:43:27.802 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2018-09-25 11:43:27.853 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-09-25 11:43:28.126 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:216 - Tomcat started on port(s): 8080 (http)
+2018-09-25 11:43:28.137 INFO  com.huc.boot_jwt.BootJwtApplication Line:57  - Started BootJwtApplication in 10.444 seconds (JVM running for 12.716)
+2018-09-25 11:43:28.137 INFO  com.huc.boot_jwt.BootJwtApplication Line:15  - 发送服务启动 
+2018-09-25 11:43:32.729 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-25 11:43:32.731 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-25 11:43:32.790 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 56 ms
+2018-09-25 11:43:32.903 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator Line:47  - HHH000397: Using ASTQueryTranslatorFactory
+2018-09-25 11:45:16.965 INFO  com.huc.boot_jwt.common.interceptor.SysInterceptor Line:54  - 签名过期
+2018-09-25 13:35:50.434 INFO  com.huc.boot_jwt.BootJwtApplication Line:48  - Starting BootJwtApplication on LSJUGRIS6BPDKCI with PID 7916 (E:\java_workspace\boot_jwt\target\classes started by Administrator in E:\java_workspace\boot_jwt)
+2018-09-25 13:35:50.445 INFO  com.huc.boot_jwt.BootJwtApplication Line:597 - The following profiles are active: dev
+2018-09-25 13:35:50.537 INFO  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext Line:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 13:35:50 CST 2018]; root of context hierarchy
+2018-09-25 13:35:52.832 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$20f29405] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-25 13:35:53.598 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:92  - Tomcat initialized with port(s): 8080 (http)
+2018-09-25 13:35:53.647 INFO  org.apache.catalina.core.StandardService Line:180 - Starting service [Tomcat]
+2018-09-25 13:35:53.649 INFO  org.apache.catalina.core.StandardEngine Line:180 - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-25 13:35:54.148 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring embedded WebApplicationContext
+2018-09-25 13:35:54.150 INFO  org.springframework.web.context.ContextLoader Line:276 - Root WebApplicationContext: initialization completed in 3614 ms
+2018-09-25 13:35:54.501 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean Line:191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-25 13:35:54.517 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-25 13:35:54.518 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-25 13:35:54.519 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-25 13:35:54.520 INFO  org.springframework.boot.web.servlet.FilterRegistrationBean Line:259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-25 13:35:55.100 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:356 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-25 13:35:55.119 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-25 13:35:55.261 INFO  org.hibernate.Version Line:37  - HHH000412: Hibernate Core {5.0.12.Final}
+2018-09-25 13:35:55.265 INFO  org.hibernate.cfg.Environment Line:213 - HHH000206: hibernate.properties not found
+2018-09-25 13:35:55.270 INFO  org.hibernate.cfg.Environment Line:317 - HHH000021: Bytecode provider name : javassist
+2018-09-25 13:35:55.362 INFO  org.hibernate.annotations.common.Version Line:66  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 13:35:55.996 INFO  org.hibernate.dialect.Dialect Line:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-25 13:35:56.826 INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate Line:105 - HHH000228: Running hbm2ddl schema update
+2018-09-25 13:35:57.075 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:414 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-25 13:35:58.215 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/description],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.description(java.lang.String)
+2018-09-25 13:35:58.220 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/login],methods=[POST]}" onto public com.huc.boot_jwt.common.entity.Result com.huc.boot_jwt.modules.user.web.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse)
+2018-09-25 13:35:58.229 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-09-25 13:35:58.232 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-09-25 13:35:58.234 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-09-25 13:35:58.239 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-25 13:35:58.240 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping Line:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-25 13:35:58.556 INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping Line:69  - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-09-25 13:35:58.981 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter Line:556 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5bf0d49: startup date [Tue Sep 25 13:35:50 CST 2018]; root of context hierarchy
+2018-09-25 13:35:59.053 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 13:35:59.056 INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping Line:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-25 13:35:59.542 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2018-09-25 13:35:59.556 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:345 - Starting beans in phase 2147483647
+2018-09-25 13:35:59.557 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:160 - Context refreshed
+2018-09-25 13:35:59.601 INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper Line:163 - Found 1 custom documentation plugin(s)
+2018-09-25 13:35:59.648 INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner Line:41  - Scanning for api listing references
+2018-09-25 13:35:59.918 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer Line:216 - Tomcat started on port(s): 8080 (http)
+2018-09-25 13:35:59.927 INFO  com.huc.boot_jwt.BootJwtApplication Line:57  - Started BootJwtApplication in 10.538 seconds (JVM running for 12.614)
+2018-09-25 13:35:59.928 INFO  com.huc.boot_jwt.BootJwtApplication Line:15  - 发送服务启动 
+2018-09-25 13:36:13.560 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/spring-boot-jwt] Line:180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-25 13:36:13.563 INFO  org.springframework.web.servlet.DispatcherServlet Line:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-25 13:36:13.623 INFO  org.springframework.web.servlet.DispatcherServlet Line:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 57 ms
+2018-09-25 13:36:13.746 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator Line:47  - HHH000397: Using ASTQueryTranslatorFactory
